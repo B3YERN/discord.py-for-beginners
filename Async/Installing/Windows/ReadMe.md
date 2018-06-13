@@ -10,4 +10,4 @@ then it should install!
 
 
 
-```if you haven't installed Python yet, head into https://www.python.org then head to Downloads then Download 3.6.5 and start installing By clicking install now!```
+```if you haven't installed Python yet, head into https://www.python.org then head to Downloads then Download 3.6.5 then before installing start adding it to PATH and start installing By clicking install now!```
