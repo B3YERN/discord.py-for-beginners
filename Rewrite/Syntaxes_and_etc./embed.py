@@ -18,7 +18,7 @@ embed.add_field('Field name [256 char max]', 'Content [1024 char]', inline=True)
 
 # to confirm that it's embed:
 await ctx.send(embed=embed)
- # or: await channel.send(embed=embed)
+ # or: await channel.send(embed=embed)'''
  
  
 # Random Images with embed
