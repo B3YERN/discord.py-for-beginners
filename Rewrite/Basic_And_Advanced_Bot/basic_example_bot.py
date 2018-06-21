@@ -17,14 +17,6 @@ async def cookie(ctx):
 @bot.command()
 async def ping(ctx):
 """Ping pong"""
-  await ctx.send("ctx.message.author.mention, Pong"
-
-@bot.group()
-async def cool(ctx):
-    """Says if a user is cool.
-    In reality this just checks if a subcommand is being invoked.
-    """
-    if ctx.invoked_subcommand is None:
-        await ctx.send('No, {0.subcommand_passed} is not cool'.format(ctx))
+  await ctx.send("ctx.message.author.mention, Pong")
 
 bot.run(' ')
