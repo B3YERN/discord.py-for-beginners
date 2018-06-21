@@ -17,7 +17,7 @@ async def cookie(ctx):
 @bot.command()
 async def ping(ctx):
 """Ping pong"""
-  await ctx.send("ctx.message.author.mention, Pong"
+  await ctx.send("ctx.message.author.mention, Pong")
 
 @bot.group()
 async def cool(ctx):
