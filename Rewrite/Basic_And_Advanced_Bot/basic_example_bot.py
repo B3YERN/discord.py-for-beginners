@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-import asyncio
+
 bot = commands.Bot(command_prefix='any_prefix_as_much_as_you_want_')
 client = discord.Client()
 
